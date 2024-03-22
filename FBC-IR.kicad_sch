@@ -248,116 +248,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1206,6 +1096,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 116.84) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1875a895-f78f-4421-8741-f4a822fed1a2")
+	)
+	(wire
+		(pts
 			(xy 60.96 71.12) (xy 60.96 68.58)
 		)
 		(stroke
@@ -1223,6 +1123,16 @@
 			(type default)
 		)
 		(uuid "1ef49367-abd0-4c85-9dd2-2b9a0a8d91f7")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3136b1b4-c16c-4f4f-a2f2-33683be83766")
 	)
 	(wire
 		(pts
@@ -1276,6 +1186,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 114.3) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fc8136-74ab-465f-b70b-6d573369bf5e")
+	)
+	(wire
+		(pts
 			(xy 80.01 91.44) (xy 80.01 100.33)
 		)
 		(stroke
@@ -1293,6 +1213,16 @@
 			(type default)
 		)
 		(uuid "687bb716-5f51-401b-99fd-b00e3697d941")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc86906-8177-4324-9c6e-e99f76f4e494")
 	)
 	(wire
 		(pts
@@ -1505,6 +1435,61 @@
 		)
 		(uuid "0dba388e-6bab-43dc-a619-097b54ed2dfb")
 	)
+	(label "IR_1"
+		(at 77.47 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b46524f-cd21-4bee-a371-fb24940a89d6")
+	)
+	(label "PT_2"
+		(at 77.47 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bf5f755-1b78-4a94-ba49-df41eebe0e83")
+	)
+	(label "PT_2"
+		(at 80.01 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4019ad08-3ebb-442c-b96e-fa4764a48477")
+	)
+	(label "PT_1"
+		(at 77.47 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60ee0c1c-60ad-4269-b11b-8af69746118a")
+	)
+	(label "IR_2"
+		(at 63.5 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "662f9391-86c7-45e2-8b83-51a29144c913")
+	)
 	(label "CPU_47"
 		(at 115.57 81.28 0)
 		(fields_autoplaced yes)
@@ -1537,6 +1522,39 @@
 			(justify left bottom)
 		)
 		(uuid "a06df12b-cef3-4b37-8d51-00334d620159")
+	)
+	(label "IR_2"
+		(at 77.47 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e610ca-c688-4f69-90dd-caa3e7447f67")
+	)
+	(label "IR_1"
+		(at 63.5 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d295faa4-9fc2-4412-9e7d-6573900ed0a8")
+	)
+	(label "PT_1"
+		(at 67.31 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e69bc8a5-e611-407c-8048-c0aec65d3ad9")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -1609,73 +1627,6 @@
 			(project "FBC-IR"
 				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 73.66 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a50be18-5824-4f31-a69f-bb4149e5bb49")
-		(property "Reference" "J2"
-			(at 76.2 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR LED"
-			(at 76.2 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Customs:LED_pad"
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf1a9342-7250-43bb-acc0-3d410ceacd9a")
-		)
-		(instances
-			(project "FBC-IR"
-				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2310,6 +2261,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 90.17 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e31e64b-2213-411f-8689-573d954634a8")
+		(property "Reference" "J6"
+			(at 95.504 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 91.44 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Customs:LED_pad"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f0a21b3f-99c7-473c-9f8f-bc3b17d54403")
+		)
+		(pin "3"
+			(uuid "13140c12-5cc4-409a-b381-b29835af8b61")
+		)
+		(pin "1"
+			(uuid "09025110-1be0-42ba-a812-fc3f629513dd")
+		)
+		(pin "2"
+			(uuid "bf0ccb32-f879-4b11-9110-1165feb08562")
+		)
+		(instances
+			(project "FBC-IR"
+				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 93.98 90)
 		(unit 1)
@@ -2437,72 +2464,6 @@
 			(project "FBC-IR"
 				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 80.01 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d3f092f-a220-4597-8e68-bf9e80aed724")
-		(property "Reference" "J4"
-			(at 82.55 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR LED"
-			(at 77.47 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Customs:LED_pad"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd78840c-fa27-4516-9c7f-12c368763664")
-		)
-		(instances
-			(project "FBC-IR"
-				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2643,72 +2604,6 @@
 			(project "FBC-IR"
 				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 72.39 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6ee7de5-704e-4f82-a31b-81abb1fef93f")
-		(property "Reference" "J3"
-			(at 74.93 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR LED"
-			(at 69.85 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Customs:LED_pad"
-			(at 72.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83198b55-d51f-4d3a-851e-6ad7a82ddfaf")
-		)
-		(instances
-			(project "FBC-IR"
-				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2915,74 +2810,6 @@
 			(project "FBC-IR"
 				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 73.66 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed9704b6-fd4d-4dfd-9bb9-d8f46d53d39b")
-		(property "Reference" "J1"
-			(at 76.2 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR LED"
-			(at 76.2 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Customs:LED_pad"
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0b7f91a-e04e-4215-94dc-9be54b70c375")
-		)
-		(instances
-			(project "FBC-IR"
-				(path "/7234510c-a57b-4449-9b96-152fea1cbda0"
-					(reference "J1")
 					(unit 1)
 				)
 			)

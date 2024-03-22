@@ -66,6 +66,50 @@
 			)
 		)
 	)
+	(fp_rect
+		(start -1 -1.25)
+		(end 0 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "e045fdab-e1ad-4d2a-a249-588b62894d0a")
+	)
+	(fp_rect
+		(start -1 -0.25)
+		(end 0 0.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "f695b5c9-cded-47e2-9eb6-5340316fa743")
+	)
+	(fp_rect
+		(start -1 0.75)
+		(end 0 1.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "85c9f714-3196-4d8c-9777-c832511be5d1")
+	)
+	(fp_rect
+		(start -1 1.75)
+		(end 0 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "49889834-8369-4c67-b2a5-c6a626169381")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -78,28 +122,28 @@
 			)
 		)
 	)
-	(pad "1" connect rect
+	(pad "1" smd rect
 		(at 0 -1)
-		(size 1 0.5)
-		(layers "F.Cu" "F.Mask")
+		(size 2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b4a29ba3-dee0-4645-b2d3-3756015bf4f0")
 	)
-	(pad "2" connect rect
+	(pad "2" smd rect
 		(at 0 0)
-		(size 1 0.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "f9a8e1ee-7ad1-4b01-be8a-5e91fd4c7296")
+		(size 2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a45280a7-73be-49d0-a707-c46837b7cf46")
 	)
-	(pad "3" connect rect
+	(pad "3" smd rect
 		(at 0 1)
-		(size 1 0.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "291f134c-1ec5-4620-a657-753bdc19ea56")
+		(size 2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ac9cf81-30b0-4055-9076-ba6b19e14407")
 	)
-	(pad "4" connect rect
+	(pad "4" smd rect
 		(at 0 2)
-		(size 1 0.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "43d94da1-961f-4813-a037-d5367fddc1b5")
+		(size 2 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb960cd9-1945-4278-ad2f-f1714f70b46e")
 	)
 )
